@@ -42,13 +42,14 @@ export default function SingleProductPage() {
                     <h5 className="text-capitalize text-muted mb-4">
                       Brand: {company}
                     </h5>
-                    <h5 className="text-main text-capitalize mb-4">
-                      Price: ${price}
-                    </h5>
+
                     <p className="text-capitalize text-title mt-3">
                       Some info about product:
                     </p>
                     <p>{description}</p>
+                    <h5 className="text-main text-capitalize mb-4 font-weight-bolder">
+                      Price: ${price}
+                    </h5>
                     <button
                       type="button"
                       className="main-link"
@@ -57,6 +58,7 @@ export default function SingleProductPage() {
                     >
                       Add to cart
                     </button>
+
                     <Link
                       to="/products"
                       className="main-link"

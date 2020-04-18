@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,700|Open+Sans&display=swap");
 
 :root {
-  --primaryColor: #c4efe7;
+  --primaryColor: #0f5e7a;
   --primaryRGBA: rgba(0, 0, 0, 0.3);
-  --mainGrey: #8bd6c8;
-  --darkGrey: #39ad9d;
-  --mainWhite: #42858c;
-  --mainBlack: #222;
+  --mainGrey: #919991;
+  --darkGrey: #575a5e;
+  --mainWhite: #c9ccca;
+  --mainBlack: #1e2226;
   --mainTransition: all 0.3s ease-in-out;
   --mainSpacing: 0.1rem;
 }
@@ -43,8 +43,9 @@ body {
 .main-link:hover {
   background: var(--darkGrey);
   text-decoration: none;
-  color: var(--primaryColor);
-  outline-color: var(--darkGrey);
+  color: var(--mainWhite);
+  border: 2px solid var(--mainGrey);
+  outline-color: var(--primaryColor);
 }
 
 .cart-icon {
@@ -52,8 +53,9 @@ body {
 }
 
 input[type="submit"] {
-  background: var(--primaryColor);
+  background: var(--darkGrey);
+  color: white;
 }
 input[type="submit"]:hover {
-  background: var(--mainWhite);
+  background: var(--primaryColor);
 }

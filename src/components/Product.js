@@ -50,7 +50,7 @@ const ProductWrapper = styled.div`
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
     transition: var(--mainTransition);
     height: 100%;
-    background: #c4efe7;
+    background: var(--mainWhite);
   }
   .card:hover {
     box-shadow: 7px 10px 5px 0px rgba(0, 0, 0, 0.5);

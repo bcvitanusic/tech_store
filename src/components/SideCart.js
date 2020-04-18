@@ -30,7 +30,7 @@ export default function SideCart() {
                 );
               })}
             </ul>
-            <h4 className="text-capitalize text-main font-weight-bold">
+            <h4 className="text-capitalize text-main font-weight-bold text-black-50">
               Cart total: ${cartTotal}
             </h4>
             <div className="text-center my-5">
@@ -54,7 +54,7 @@ const CartWrapper = styled.div`
   background: var(--mainGrey);
   z-index: 1;
   transform: ${(props) => (props.show ? "translateX(0)" : "translateX(100%)")};
-  border-left: 4px solid var(--primaryColor);
+  border-left: 4px solid var(--mainBlack);
   transition: var(--mainTransition);
   @media (min-width: 576px) {
     width: 20rem;

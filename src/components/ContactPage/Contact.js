@@ -40,16 +40,12 @@ export default function Contact() {
               <textarea
                 className="form-control"
                 name="message"
-                rows="10"
+                rows="7"
                 placeholder="Your message"
               />
             </div>
             <div className="form-group mt-3">
-              <input
-                type="submit"
-                value="Send"
-                className="form-control text-black btnColor"
-              />
+              <input type="submit" value="Send" className="form-control" />
             </div>
           </form>
         </div>

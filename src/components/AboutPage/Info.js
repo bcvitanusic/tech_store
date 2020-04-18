@@ -15,17 +15,14 @@ export default function Info() {
               style={{ background: "var(--darkGrey" }}
             />
           </div>
-          <div className="col-10 mx-auto col-md-6 my-3">
+          <div className="col-10 mx-auto col-md-6 my-3 ml-3">
             <Title title="about us" />
-            <p className="text-lead text-muted y-3">
+            <p className="text-lead y-3 mt-4">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
               laborum quibusdam perspiciatis facere soluta doloribus obcaecati
-              rem laudantium, libero debitis.
-            </p>
-            <p className="text-lead text-muted y-3">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
-              laborum quibusdam perspiciatis facere soluta doloribus obcaecati
-              rem laudantium, libero debitis.
+              rem laudantium, libero debitis. Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Iure laborum quibusdam perspiciatis
+              facere soluta doloribus obcaecati rem laudantium, libero debitis.
             </p>
             <button
               className="main-link"
