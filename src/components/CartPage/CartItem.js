@@ -40,7 +40,7 @@ export default function CartItem({
               className="text-primary cart-icon"
               onClick={() => decrement(id)}
             />
-            <span className="text-title text-muted mx-3">{count}</span>
+            <span className="text-title mx-3">{count}</span>
             <FaChevronCircleUp
               className="text-primary cart-icon"
               onClick={() => increment(id)}
@@ -59,7 +59,8 @@ export default function CartItem({
       {/* end of Remove*/}
       {/*Total*/}
       <div className="col-10 mx-auto col-lg-2">
-        <strong className="text-muted">Item total: ${total}</strong>
+        <strong className="text-muted">Item total:</strong>{" "}
+        <div className="text-dark">${total}</div>
       </div>
       {/* end of Total*/}
     </div>
